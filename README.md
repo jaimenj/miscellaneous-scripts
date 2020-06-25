@@ -4,16 +4,17 @@ Miscellaneous Scripts for Wordpress is a simple way of custimizing the frontend 
 
 ## Main info
 
-Plugin URI: https://jnjsite.com/miscellaneous-scripts-for-wordpress/
-Contributors: jaimenj
-Tags: frontend, customize, tags, css, javascript, html, header, body, footer
-Requires at least: 5.0
-Tested up to: 5.4
-Requires PHP: 7.2
-Stable tag: 1.1
-License: GPLv3
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
-Donate link: https://www.paypal.me/jaimeninoles
+* Plugin URI: https://jnjsite.com/miscellaneous-scripts-for-wordpress/
+* Contributors: jaimenj
+* Tags: frontend, customize, tags, css, javascript, html, header, body, footer
+* Requires at least: 5.0
+* Tested up to: 5.4
+* Requires PHP: 7.2
+* Stable tag: 1.1
+* License: GPLv3
+* License URI: https://www.gnu.org/licenses/gpl-3.0.html
+* Donate link: https://www.paypal.me/jaimeninoles
+* Repository URL: https://github.com/jaimenj/miscellaneous-scripts
 
 ## Description
 
@@ -21,7 +22,8 @@ A very simple plugin for WordPress that allows you to customize easily the front
 
 It allows you to customize easily the frontend. You can add codes and also you can link to files with more styles or Javascripts uploading them to your WP installation. It allows you to add for example Google Analytics tag, Google Tag Manager, Ads from companies that serve them, Mailchimp, etc.. Tags for the main social networks like Facebook, Twitter, Instagram, etc.. Whatever you imagine you want to do with some HTML, CSS and Javascript.. you can do it with with this plugin.
 
-<a href="https://jnjsite.com/miscellanous-scripts-for-wordpress/">Plugin website</a>.
+Plugin website: \
+<a href="https://jnjsite.com/miscellanous-scripts-for-wordpress/">https://jnjsite.com/miscellanous-scripts-for-wordpress/</a>
 
 * Really easy to use and very powerfull.
 * Very small, it doesn't slows down the performance of your site.
@@ -31,7 +33,7 @@ It allows you to customize easily the frontend. You can add codes and also you c
 
 ## Installation
 
-1. Install the plugin uploading files intto the directory /wp-content/plugins/.
+1. Install the plugin uploading files intto the directory /wp-content/plugins/miscellaneous-scripts/ like others plugins.
 2. Activate the plugin into the Plugins menu in the admin panel of Wordpress.
 3. Got to Settings > Miscellaneous Scripts and set all the codes you need for the frontend.
 4. Save and flush cache of the frontend if needed.
@@ -51,7 +53,7 @@ Yes!
 
 * Can I inject any kind of HTML, CSS and Javascript? =
 
-Yes adding codes into the BODY sections. Into the HEAD section you cannot add HTML.
+Yes, adding codes into the BODY sections. Into the HEAD section you cannot add HTML.
 
 ## Upgrade Notice
 
@@ -64,8 +66,8 @@ Not upgraded yet.
 ## Changelog
 
 ### 1.1
-* Publishing the project for possibly contributors.
-* 
+* Publishing the project in Github to allow contributors.
+* Links and info in admin zone.
 
 ### 1.0
 * Initial version

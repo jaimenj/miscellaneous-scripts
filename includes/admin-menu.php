@@ -27,7 +27,7 @@ function msjnj_register_options()
 function msjnj_admin_panel()
 {
     // Save Settings
-    if (isset($_REQUEST['submit'])) {
+    if (isset($_REQUEST['submit']) and current_user_can('administrator')) {
         if (!isset($_REQUEST['msjnj_nonce'])) {
             $msjnjSms = '<div id="message" class="notice notice-error is-dismissible"><p>ERROR: nonce field is missing. Settings NOT saved.</p></div>';
         } elseif (!wp_verify_nonce($_REQUEST['msjnj_nonce'], 'msjnj')) {

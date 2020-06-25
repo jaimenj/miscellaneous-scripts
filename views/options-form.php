@@ -1,4 +1,6 @@
 <?php
+defined('ABSPATH') or die('No no no');
+
 if (!current_user_can('manage_options')) {
     wp_die(__('Sorry, you are not allowed to manage options for this site.'));
 }
@@ -13,26 +15,34 @@ if (!current_user_can('manage_options')) {
 
 <?php if (isset($msjnjSms)) {
     echo $msjnjSms;
-} ?>
+}
 
-<form method="post" action="options-general.php?page=miscellaneous-scripts">
-    <?php settings_fields('msjnj_options_group'); ?>
-    <?php do_settings_sections('msjnj_options_group'); ?>
+// Check if user is administrator
+if (current_user_can('administrator')) {
+    ?>
 
-    <p><label for="msjnj_header_codes">Codes to add into the HEAD on the frontend:</label></p>
-    <textarea name="msjnj_header_codes" id="msjnj_header_codes" class="widefat textarea" rows="3"><?php echo esc_textarea(get_option('msjnj_header_codes')); ?></textarea>
+    <form method="post" action="options-general.php?page=miscellaneous-scripts">
+        <?php settings_fields('msjnj_options_group'); ?>
+        <?php do_settings_sections('msjnj_options_group'); ?>
 
-    <p><label for="msjnj_body_start_codes">Codes to add into the BODY when it starts:</label></p>
-    <textarea name="msjnj_body_start_codes" id="msjnj_body_start_codes" class="large-text code" rows="3"><?php echo esc_textarea(get_option('msjnj_body_start_codes')); ?></textarea>
+        <p><label for="msjnj_header_codes">Codes to add into the HEAD on the frontend:</label></p>
+        <textarea name="msjnj_header_codes" id="msjnj_header_codes" class="widefat textarea" rows="3"><?php echo esc_textarea(get_option('msjnj_header_codes')); ?></textarea>
 
-    <p><label for="msjnj_body_end_codes">Codes to add into the BODY before it ends:</label></p>
-    <textarea name="msjnj_body_end_codes" id="msjnj_body_end_codes" class="large-text code" rows="3"><?php echo esc_textarea(get_option('msjnj_body_end_codes')); ?></textarea>
+        <p><label for="msjnj_body_start_codes">Codes to add into the BODY when it starts:</label></p>
+        <textarea name="msjnj_body_start_codes" id="msjnj_body_start_codes" class="large-text code" rows="3"><?php echo esc_textarea(get_option('msjnj_body_start_codes')); ?></textarea>
 
-    <?php wp_nonce_field('msjnj', 'msjnj_nonce'); ?>
-    <?php submit_button(); ?>
+        <p><label for="msjnj_body_end_codes">Codes to add into the BODY before it ends:</label></p>
+        <textarea name="msjnj_body_end_codes" id="msjnj_body_end_codes" class="large-text code" rows="3"><?php echo esc_textarea(get_option('msjnj_body_end_codes')); ?></textarea>
 
-</form>
-</div>
+        <?php wp_nonce_field('msjnj', 'msjnj_nonce'); ?>
+        <?php submit_button(); ?>
+
+    </form>
+    </div>
+
+    <?php
+}
+?>
 
 <script>
 jQuery(document).ready(function($) {
