@@ -2,6 +2,8 @@
 
 Miscellaneous Scripts for Wordpress is a simple way of custimizing the frontend adding some html, css and Javascript to the frontend.
 
+![Plugin image](https://raw.githubusercontent.com/jaimenj/miscellaneous-scripts/master/assets/screenshot-1.png)
+
 ## Main info
 
 * Plugin URI: https://jnjsite.com/miscellaneous-scripts-for-wordpress/
