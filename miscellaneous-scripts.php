@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Miscellaneous Scripts
  * Plugin URI: https://jnjsite.com/miscellaneous-scripts-for-wordpress/
- * Description: General tool to customize Wordpress adding any kind of HTML, CSS and Javascript to the frontend. Really easy, fast, a very small and powerful plugin!
+ * Description: General tool to customize WordPress adding any kind of HTML, CSS and Javascript to the frontend. Really easy, fast, a very small and powerful plugin!
  * Version: 1.0
  * Author: Jaime Niñoles
  * Author URI: https://jnjsite.com/.

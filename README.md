@@ -1,6 +1,6 @@
-# Miscellaneous Scripts for Wordpress 
+# Miscellaneous Scripts for WordPress 
 
-Miscellaneous Scripts for Wordpress is a simple way of custimizing the frontend adding some html, css and Javascript to the frontend.
+Miscellaneous Scripts for WordPress is a simple way of custimizing the frontend adding some html, css and Javascript to the frontend.
 
 ![Plugin image](https://raw.githubusercontent.com/jaimenj/miscellaneous-scripts/master/assets/screenshot-1.png)
 
@@ -38,13 +38,13 @@ Plugin website: \
 ## Installation
 
 1. Install the plugin uploading files intto the directory /wp-content/plugins/miscellaneous-scripts/ like others plugins.
-2. Activate the plugin into the Plugins menu in the admin panel of Wordpress.
+2. Activate the plugin into the Plugins menu in the admin panel of WordPress.
 3. Got to Settings > Miscellaneous Scripts and set all the codes you need for the frontend.
 4. Save and flush cache of the frontend if needed.
 
 ## Uninstall
 
-1. Deactivate the plugin into the Plugins menu in the admin panel of Wordpress.
+1. Deactivate the plugin into the Plugins menu in the admin panel of WordPress.
 2. Delete into the Plugins menu.
 
 All the options configured into the plugin are removed when plugin is deleted, not when plugin is deactivated.
