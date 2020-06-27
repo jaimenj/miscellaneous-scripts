@@ -20,6 +20,8 @@ Miscellaneous Scripts for Wordpress is a simple way of custimizing the frontend 
 
 A very simple plugin for WordPress that allows you to customize easily the frontend. You can add HTML tags, CSS styles and Javascripts with it. Also you can link to files with more styles or Javascripts.
 
+**WARNING!! THIS TOOL IS ONLY FOR DEVELOPERS!! Do not use if you don’t know what are you doing. If you just copy-paste Javascript, CSS and HTML codes into the plugin configuration, without reviewing very well your codes, you can open a security breach into your systems.**
+
 It allows you to customize easily the frontend. You can add codes and also you can link to files with more styles or Javascripts uploading them to your WP installation. It allows you to add for example Google Analytics tag, Google Tag Manager, Ads from companies that serve them, Mailchimp, etc.. Tags for the main social networks like Facebook, Twitter, Instagram, etc.. Whatever you imagine you want to do with some HTML, CSS and Javascript.. you can do it with with this plugin.
 
 Plugin website: \
